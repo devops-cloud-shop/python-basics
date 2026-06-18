@@ -82,4 +82,4 @@ print(servers, servers_1)
 8. dir()
 """
 
-servers_1.remove(123456)
+servers_1.remove(123456) # it throws an error when the element is not present in the list
