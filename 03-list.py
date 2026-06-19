@@ -4,6 +4,41 @@ l1 = list()
 server_1 = "172.10.33.25"
 server_2 = "172.10.33.26"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """ servers = ["172.10.33.25", "172.10.33.26", True, 123, 1234.56, 1234.567]
 # print(type(servers), servers, server_1, server_2)
 print(servers)
