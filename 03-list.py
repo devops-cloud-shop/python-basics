@@ -73,6 +73,17 @@ print("after_modify_extend:", servers)
 
 print("modify index:", servers.index(False))
 
+#insert - need to specify index of the value to be added- so that it inserts the value at the specified index
+print("before_modify:", servers)
+servers.insert(5,"554.45.43.2")
+print("after_insert:", servers)
+
+#remove
+
+servers.remove(True)
+print("after_remove:", servers)
+
+#reverse
 
 
 
