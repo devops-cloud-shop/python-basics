@@ -99,8 +99,12 @@ print("sorting:", servers)
 servers_1 = sorted(servers)
 print(servers, servers_1)
 
+#copy
 
-
+servers = [ "172.10.33.25" , "172.10.33.26" , True, 123, 123.45, False, 456 ]
+servers_1 = servers.copy()
+servers_1.remove(False)
+print(servers , servers_1)
 
 
 
