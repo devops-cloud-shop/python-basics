@@ -62,8 +62,20 @@ print("after_append_list:", servers)
 print(servers[-1][0]) #when u want to fetch an element from the list in a list
 
 
-servers.extend(["c","d"])
+# extend- it extends list by appending the elements of the iterable - ex- if string is given "extra", it appends as "e"
+#,"x", "t", "r", "a" - if list is given ["c", "d"] - it appends as "c" , "d" at the end of the list.
+
+#bool object throws an error - can't extend
+servers.extend(["c","d"]) 
 print("after_modify_extend:", servers)
+
+#index
+
+print("modify index:", servers.index(False))
+
+
+
+
 
 
 
