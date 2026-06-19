@@ -84,9 +84,13 @@ servers.remove(True)
 print("after_remove:", servers)
 
 #reverse
-print(servers.reverse())
+servers.reverse()
+print(servers)
 
+servers_actual = servers[::-1] # to list the servers before reverse operation had applied
+print("original_list:", servers_actual)
 
+#
 
 
 
