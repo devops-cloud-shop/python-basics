@@ -36,19 +36,34 @@ print("Length of list:", len(servers))
 # Mutable: Once defined, can change at any time E.g. List, dictonaries
 # Immutable: Once defined, can't be changed E.g. Tuple, sets
 
+servers[-2] = "Ansible"
+print("After_Modification:", servers)
 
 
+# To know the operations performed by a specific datatype ex-list - use dir(variable/datatype)
+# print("list_of_operations:",dir(servers))
+
+"""
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+"""
+
+#append - lists the object to the end of the list
+servers = [ "172.10.33.25" , "172.10.33.26" , True, 123, 123.45, False, 456 ]
+servers.append(True)
+print("after_append:", servers)
+
+#you can add/append list in a list
+servers.append(["a", "b"])
+print("after_append_list:", servers)
+
+#Multi indexing
+
+print(servers[-1][0]) #when u want to fetch an element from the list in a list
 
 
-
-
-
-
-
-
-
-
-
+servers.extend(["c","d"])
+print("after_modify_extend:", servers)
 
 
 
