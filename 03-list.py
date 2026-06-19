@@ -4,7 +4,7 @@ l1 = list()
 server_1 = "172.10.33.25"
 server_2 = "172.10.33.26"
 
-servers = ["172.10.33.25", "172.10.33.26", True, 123, 1234.56, 1234.567]
+""" servers = ["172.10.33.25", "172.10.33.26", True, 123, 1234.56, 1234.567]
 # print(type(servers), servers, server_1, server_2)
 print(servers)
 
@@ -71,15 +71,15 @@ servers_1 = servers.copy()
 servers_1.remove(123)
 print(servers, servers_1)
 
-"""
-1. Reverse a list
-2. Sort vs sorted
-3. Integer division vs floor division
-4. Shallow copy (inplace operation)
-5. Multi indexing
-6. append vs extend
-7. Mutable vs immutable
-8. dir()
-"""
+# """
+# 1. Reverse a list
+# 2. Sort vs sorted
+# 3. Integer division vs floor division
+# 4. Shallow copy (inplace operation)
+# 5. Multi indexing
+# 6. append vs extend
+# 7. Mutable vs immutable
+# 8. dir()
+# """
 
-servers_1.remove(123456) # it throws an error when the element is not present in the list
+# servers_1.remove(123456) # it throws an error when the element is not present in the list """
