@@ -91,9 +91,15 @@ servers_actual = servers[::-1] # to list the servers before reverse operation ha
 print("original_list:", servers_actual)
 
 #sort - Inplace operation -means it results "None", the list is updated inplace
-servers = [ 1,2,6,7,4,9,0,3 ]
+#sorted - returns a new list
+servers = [ 1,43,6,7,4,9,0,3,5 ]
 servers.sort()
 print("sorting:", servers)
+
+servers_1 = sorted(servers)
+print(servers, servers_1)
+
+
 
 
 
