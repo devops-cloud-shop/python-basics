@@ -4,70 +4,78 @@ l1 = list()
 server_1 = "172.10.33.25"
 server_2 = "172.10.33.26"
 
+servers = [ "172.10.33.25" , "172.10.33.26" , True, 123, 123.45, False, 456 ]
+print(type(servers), servers)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-""" servers = ["172.10.33.25", "172.10.33.26", True, 123, 1234.56, 1234.567]
-# print(type(servers), servers, server_1, server_2)
-print(servers)
-
-# Python is zero indexed based
+#Python is ZERO index based
 server_1 = servers[0]
-# print("Server 1 IP address:",server_1)
+print("server_1 is:", server_1)
 
-# Slicing (start_index:end_index + 1:step_size), as end_index in python is not inclusive
-# step_size: 1 (default)
-simple_slice = servers[1:6:2] # [1, 1+2, 3+2, 5+2]
-simple_slice = servers[1:]
-print(simple_slice)
-simple_slice = servers[:5]
-print(simple_slice)
-simple_slice = servers[:]
-print(simple_slice)
+#Slicing - has (startindex:endindex, stepsize) end index is not inclusive 
+slicing_server = servers[0:2]
+print(slicing_server)
 
-# Negative indexing
-simple_slice = servers[-1:-4:-1]
-# print(simple_slice)
+# suppose you want to fetch servers in odd index like 1st element, 3rd element, 5th element from the list
+#here we make use of step size - by default step size value is 1
 
-# print("Length of list:", len(simple_slice))
+slicing_server = servers[1:6:2]
+print(slicing_server)
+
+slicing_server = servers[0:7:2] #even
+print(slicing_server)
+
+#Negative indexing
+slicing_server = servers[-1:-6:-1] 
+print(slicing_server)
+print("Length of list:", len(slicing_server))
+
+print("Length of list:", len(servers))
 
 # List is a mutable datatype
 # Mutable: Once defined, can change at any time E.g. List, dictonaries
 # Immutable: Once defined, can't be changed E.g. Tuple, sets
 
-# print("Before modify:", servers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+""" # print("Before modify:", servers)
 servers[-3] = 1234 # Inplace operation
 # print("After modification:", servers)
 
@@ -117,4 +125,4 @@ print(servers, servers_1)
 # 8. dir()
 # """
 
-# servers_1.remove(123456) # it throws an error when the element is not present in the list """
+# servers_1.remove(123456) # it throws an error when the element is not present in the list """ """
