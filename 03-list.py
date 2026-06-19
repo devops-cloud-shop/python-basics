@@ -84,7 +84,7 @@ servers.remove(True)
 print("after_remove:", servers)
 
 #reverse
-
+print(servers.reverse())
 
 
 
