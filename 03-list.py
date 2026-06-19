@@ -90,7 +90,11 @@ print(servers)
 servers_actual = servers[::-1] # to list the servers before reverse operation had applied
 print("original_list:", servers_actual)
 
-#
+#sort - Inplace operation -means it results "None", the list is updated inplace
+servers = [ 1,2,6,7,4,9,0,3 ]
+servers.sort()
+print("sorting:", servers)
+
 
 
 
