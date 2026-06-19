@@ -14,6 +14,9 @@ print("server_1 is:", server_1)
 
 #Slicing - has (startindex:endindex, stepsize) end index is not inclusive 
 slicing_server = servers[0:2]
+slicing_server = servers[1:] #it starts from index 1 
+slicing_server = servers[:6] #it ends the list at index 5
+slicing_server = servers[:] #it results in complete list
 print(slicing_server)
 
 # suppose you want to fetch servers in odd index like 1st element, 3rd element, 5th element from the list
@@ -99,7 +102,7 @@ print("sorting:", servers)
 servers_1 = sorted(servers)
 print(servers, servers_1)
 
-#copy
+#copy - it makes a shallow copy, original list will not be modified, this helps in reusing the list elsewhere.
 
 servers = [ "172.10.33.25" , "172.10.33.26" , True, 123, 123.45, False, 456 ]
 servers_1 = servers.copy()
