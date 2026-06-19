@@ -17,6 +17,7 @@ comment
 
 num_servers = 10 # Integer
 print(num_servers)
+
 CONST_PI = 3.14 # Float
 print(type(CONST_PI))
 
@@ -35,12 +36,16 @@ b = 20
 total = a + b # 30
 diff = a - b # -10
 mult = a * b # 200
-division = b / a # 2.0
-print(division)
-integer_division = b // a # 2
+
+floor_division = b / a # 2.0, floor division gives you float value
+print(floor_division)
+
+integer_division = b // a # 2 , integer division gives you integer value
 print(integer_division)
+
 remainder = b % a # 0
 print(remainder)
+
 a = 2
 b = 3
 power = b ** a # 9
