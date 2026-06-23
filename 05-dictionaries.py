@@ -20,3 +20,11 @@ print(type(sample), sample)
 """
 ['clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
 """
+
+print(sample.keys(), sample.values(), sample.items())
+
+#Type Casting
+# sample = [('b','e'), (1,2), 2 ,3] # this list cant be converted to dict - The list should be in a sequence to convert to a dict
+sample = [ (('a','b'), 3), (('g','h'),'f')] # This can be converted as the list has elements following a sequence or organized to convert to dict.
+print(dict(sample))
+
