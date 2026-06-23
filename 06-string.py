@@ -1,0 +1,2 @@
+sample = "abd"
+print(sample)
