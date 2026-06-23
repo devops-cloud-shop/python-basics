@@ -16,3 +16,8 @@ print(sample[::-1])
 #Type casting
 
 print(list(sample), tuple(sample))
+
+sample_1 = "Hello, how are you doing"
+print( sample_1.split(" "))
+
+print("#".join(sample_1.split(" "))) # joining 2 string is concatenating them (adding/addition operation is performed internally "+")
