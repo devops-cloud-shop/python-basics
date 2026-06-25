@@ -1,9 +1,11 @@
 # for, while
 # continue, break 
 
-value = 0
+value = 25
 
 while value > 10:
+    if value == 15:
+        break
     value = value - 1
     print(value)
 
