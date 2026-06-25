@@ -3,10 +3,14 @@
 
 value = 0
 
-while value < 10:
-    if value == 5:
-        # incrementing is very important
-        value = value + 1
-        continue
+while value > 10:
+    value = value - 1
     print(value)
-    value = value + 1
+
+# while value < 10:
+#     if value == 5:
+#         # incrementing is very important
+#         value = value + 1
+#         continue
+#     print(value)
+#     value = value + 1
