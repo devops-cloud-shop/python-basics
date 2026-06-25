@@ -1,12 +1,22 @@
 # for, while
 # continue, break 
 
-value = 25
+value = 0
 
-while value > 10:
-    if value == 15:
-        break
-    value = value - 1
+# #break
+# while value < 10:
+#     if value == 5:
+#         break
+   
+#     value = value + 1
+#     print(value)
+
+#continue
+while value < 10:
+    if value == 5:
+        value = value + 2
+        continue
+    value = value + 1
     print(value)
 
 # while value < 10:
