@@ -14,15 +14,10 @@ value = 0
 #continue
 while value < 10:
     if value == 5:
-        value = value + 1
+        value = value + 1 #Incrementing is important
         continue
     value = value + 1
     print(value)
 
-# while value < 10:
-#     if value == 5:
-#         # incrementing is very important
-#         value = value + 1
-#         continue
-#     print(value)
-#     value = value + 1
+#for
+sample = [ "ser_1", "ser_2", "ser_3", "ser_4", "ser_5" ]
