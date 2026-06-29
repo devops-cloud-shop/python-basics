@@ -24,3 +24,11 @@ sample = [ "server_1", "server_2", "server_3", "server_4", "server_5" ]
 
 for ele in sample:
     print (ele)
+
+# ele = iterator
+# sample = iterable
+
+#ramge, enumerator
+
+print (range(5))
+print (list(range(5)))
