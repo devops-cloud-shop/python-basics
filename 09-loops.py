@@ -40,3 +40,11 @@ print (list(range(5)))
 
 for ele in (range(len(sample))):
     print (sample[ele])
+
+
+for idx, ele in enumerate(sample):
+    print (idx, ele) # we used tuple unpacking here
+
+#tuple unpacking
+a ,b = (1 ,2)
+print (a,b)
