@@ -12,12 +12,15 @@ value = 0
 #     print(value)
 
 #continue
-while value < 10:
-    if value == 5:
-        value = value + 1 #Incrementing is important
-        continue
-    value = value + 1
-    print(value)
+# while value < 10:
+#     if value == 5:
+#         value = value + 1 #Incrementing is important
+#         continue
+#     value = value + 1
+#     print(value)
 
 #for
-sample = [ "ser_1", "ser_2", "ser_3", "ser_4", "ser_5" ]
+sample = [ "server_1", "server_2", "server_3", "server_4", "server_5" ]
+
+for ele in sample:
+    print (ele)
