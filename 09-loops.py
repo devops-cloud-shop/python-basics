@@ -31,4 +31,12 @@ for ele in sample:
 #ramge, enumerator
 
 print (range(5))
+
+
+#to access elements of the list we need type casting
 print (list(range(5)))
+
+#to access the elements in the list
+
+for ele in (range(len(sample))):
+    print (sample[ele])
