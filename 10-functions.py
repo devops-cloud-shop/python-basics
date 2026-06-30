@@ -19,7 +19,28 @@ print (result)
 # '3.0', 3 are called as positional arguments
 
 def mult(a,b, *args, **kwargs):
-    # print(f"a:{a}, b:{b}, args:{args}, kwargs:{kwargs}") # For readability and to make others/users know which variable has got which values
+    print(f"a:{a}, b:{b}, args:{args}, kwargs:{kwargs}") # For readability and to make others/users know which variable has got which values
     return (a + b)
 result = mult(3, 7 , 5, c=6, d=9 )
 print(result)
+
+
+def calc(a, b, operation):
+    if operation == "add":
+        return a + b
+    if operation == "sub":
+        return a - b
+    if operation == "mult":
+        return a * b
+    if operation == "div":
+        return a % b
+    
+a,b =  tuple(map(int,input("Enter 2 number:").split()))
+operation = input("Enter operation to perform (add, sub, mult, div): ")
+result = calc(a, b, operation)
+print(result)
+    
+# a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
+# operation = input("Enter operation to perform (add, sub, mult, div): ")
+# res = calc(a, b, operation)
+# print(res)
