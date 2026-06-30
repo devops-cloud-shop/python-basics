@@ -34,14 +34,17 @@ def calc(a, b, operation):
         return a * b
     if operation == "div":
         return a % b
-    
-def sample(var):
-    return int(var)+1
-values =  list(map(sample,  input("Enter 2 number:").split()))
 
-# operation = input("Enter operation to perform (add, sub, mult, div): ")
-# result = calc(a, b, operation)
-print(values)
+
+#example  
+# def sample(var):
+#     return int(var)+1
+# values =  list(map(sample,  input("Enter 2 number:").split()))
+
+a, b =  list(map(int,  input("Enter 2 number:").split()))
+operation = input("Enter operation to perform (add, sub, mult, div): ")
+result = calc(a, b, operation)
+print(result)
     
 # a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
 # operation = input("Enter operation to perform (add, sub, mult, div): ")
